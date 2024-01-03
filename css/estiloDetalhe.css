@@ -1,0 +1,67 @@
+.quem{
+    padding: 20px 20px;
+}
+.quem img{
+    width: 70%;
+    height: 210px;
+    margin-left: 30%;
+    margin-top: -40px;
+ 
+}
+.quem .name{
+    float: left;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.quem .number{
+    float: right;
+    font-size: 20px;
+}
+.quem .types{
+    list-style: none;
+    margin-top: -80px;
+    margin-bottom: 40px;
+}
+.nav-menu a{
+    margin: -30px auto 0px auto;
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;    
+}
+.menu-poke div{
+    margin-top: -3px;
+    background-color: rgba(238, 235, 235, 0.603);
+    padding: 10px;
+    display: none;
+}
+.menu-poke div:target{
+    display: block;
+}
+.nav-menu a.focus,
+.nav-menu a:focus{
+    background-color: rgba(238, 235, 235, 0.603);
+}
+.voltar{
+    background-color: purple;
+    font: 300;
+    padding: 10px 20px;
+    margin: 10px auto;
+    border-radius: 2rem;
+    box-shadow: 1px 3px 2px 0px rgb(185, 180, 180);
+    cursor: pointer;
+    border: none;
+    max-width: 800px;
+    text-align: center;
+    
+   
+}
+.voltar:hover{
+    background-color: #a6a877;
+}
+.voltar a {
+    color: white;
+}
+li{
+    list-style: none;
+}
